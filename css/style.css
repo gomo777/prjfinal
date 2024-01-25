@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #004AAD;
+    color: white;
+}
+
+#display-text {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#display-text-title {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: larger;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+}
+
+a:link,
+a:visited {
+    background-color: #e87a1c;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: #a85107;
+}
+
+#menu {
+    width: 100%;
+    background-color: #e87a1c;
+    text-align: center;
+}
+
+#header {
+    background-color: #a85107;
+}
+
+.imgLogo {
+    width: 200px;
+    margin-left: 2%;
+}
+
+/* index */
+
+.a1:link,
+.a1:visited {
+    background-color: #a85107;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.a1:hover,
+.a1:active {
+    background-color: #a85107;
+}
+
+/* Comandos: */
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #004AAD;
+    border: 2px solid #fff;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    margin-top: 5%;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #004AAD;
+    border-color: #004AAD;
+}
+
+#top-button {
+    margin-bottom: 10px;
+}
+
+#command-display {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.container {
+    margin-top: 5%;
+    width: 400px;
+    /* or whatever is needed */
+}
+
+#multTable {
+    margin: 0 auto;
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+/* Personagens */
+
+.personagens-table { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+} 
+
+.personagem { 
+    width: 48%; 
+    margin-bottom: 20px; 
+    background-color: #fff; 
+    padding: 10px; 
+    border-radius: 10px; 
+    display: flex; 
+    align-items: center; 
+} 
+
+.personagem img { 
+    max-width: 100px; 
+    margin-right: 20px; 
+} 
+
+.personagem-descricao { 
+    flex: 1; 
+    color: #004AAD;
+} 
+
+.personagem-descricao-title { 
+    flex: 1; 
+    color: #004AAD;
+    font-style: italic;
+} 
+
+/* Download */
+
+.download-container { 
+    max-width: 600px; 
+    margin: 0 auto; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+} 
+
+.download-logo { 
+    max-width: 100%; 
+    margin-bottom: 20px; 
+} 
+
+.download-description { 
+    margin-bottom: 20px; 
+    color: #333; 
+} 
+
+.download-button { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 10px; 
+    color: #fff; 
+    background-color: #3498db; 
+    border: 2px solid #fff; 
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+} 
+
+.download-button:hover { 
+    background-color: #fff; 
+    color: #3498db;
+    border-color: #3498db; 
+}
+
+.div-imagem-centralizada {
+    margin-left: 30%;
+}
+
+.imagem-centralizada {
+    width: 200px;
+    border-radius: 10px; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro</title>
+    <link rel="icon" href="./img/logo.png" type="image/icon type">
+
+    <link rel="stylesheet" href="./css/style.css">
+   
+</head>
+
+<body>
+    <div id="header">
+        <a href="index.html" class="a1"><img class="imgLogo" src="img/logotransparente.png"></a>
+        <div id="menu">
+            <a href="historia.html" target="Historia">Historia</a>
+            <a href="personagens.html">Personagens</a>
+            <a href="comandos.html">Comandos</a>
+            <a href="download.html" target="Download">Download</a>
+            <a href="squad.html">Squad e Produtora</a>
+            <a href="cadastro.html">Cadastro</a>
+        </div>
+    </div>
+
+    <h1>Cadastro de Jogos</h1>
+    <div id="cadastro">
+        <h2>Cadastro de Jogo</h2>
+        <form id="cadastroForm" enctype="multipart/form-data">
+            <label for="Name">Nome:</label>
+            <input type="text" id="Name" name="Name" required><br>
+
+            <label for="Genero">Genero:</label>
+            <input type="text" id="Genero" name="Genero" required><br>
+
+            <label for="Descricao">Descrição:</label>
+            <input type="text" id="Descricao" name="Descricao" required><br>
+
+            <label for="Integrantes">Integrantes:</label>
+            <input type="text" id="Integrantes" name="Integrantes" required><br>
+
+            <label for="Website">Website:</label>
+            <input type="text" id="Website" name="Website" required><br>
+
+            <label for="Squad">Squad:</label>
+            <input type="text" id="Squad" name="Squad" required><br>
+
+            <label for="Thumbnail">Thumbnail:</label>
+            <input type="text" id="Thumbnail" name="Thumbnail" required><br>
+
+            <button type="button" onclick="cadastrarJogo()">✔Cadastrar</button>
+            <button type="button" onclick="excluirJogo()">❌Excluir</button>
+        </form>
+        <div id="divimagem">
+            <h2>Lista de Jogos</h2><br>
+            <button type="button" onclick="ListarJogos()">🔎Pesquisar</button>
+            <header>
+
+            </header>
+
+            <aside>
+                <!-- Barra lateral, se necessário -->
+            </aside>
+
+            <main>
+                <table class="blueTable" id="jogos-tabela">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome do Jogo</th>
+                            <th>Genero</th>
+                            <th>Descricao</th>
+                            <th>Integrantes</th>
+                            <th>Squad</th>
+                            <th>Website</th>
+                            <th>Thumbnail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- A tabela de funcionários será carregada aqui -->
+                    </tbody>
+                </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

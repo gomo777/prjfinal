@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comandos</title>
+    <link rel="icon" href="./img/logo.png" type="image/icon type">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <a href="index.html" class="a1"><img class="imgLogo" src="img/logotransparente.png"></a>
+        <div id="menu">
+            <a href="historia.html" target="Historia">Historia</a>
+            <a href="personagens.html" target="Personagens">Personagens</a>
+            <a href="comandos.html" target="Comandos">Comandos</a>
+            <a href="download.html" target="Download">Download</a>
+            <a href="squad.html">Squad e Produtora</a>
+            <a href="cadastro.html">Cadastro</a>
+        </div>
+    </div>
+
+    <br>
+
+    <p id="display-text">
+        Em "The F.R.I.E.N.D.S Reunion", embarque em uma jornada única onde você assume o papel do adorável Joey
+        Tribbiani. Neste jogo, Joey é o único personagem jogável, respondendo aos seguintes comandos: pressione W para
+        movê-lo para frente, A para virar à esquerda, S para recuar e D para virar à direita.
+    </p>
+
+    <p id="display-text">
+        Enquanto Joey explora o labirinto de ocultação dos amigos na noite de Ação de Graças, lembre-se de que os outros
+        personagens, como Mônica, Ross, Rachel, Chandler e Phoebe, são NPCs, adicionando camadas de diversão e desafio à
+        sua jornada. Divirta-se desvendando o caminho certo e celebrando a vitória nesta aventura de Ação de Graças com
+        o inimitável Joey Tribbiani!
+    </p>
+
+    <div class="container">
+        <table id="multTable">
+            <tr>
+                <td>
+                    <div class="button-container">
+                        <button id="top-button" class="button" onmouseover="displayCommand('Para Frente')">W</button>
+                        <button class="button" onmouseover="displayCommand('Esquerda')">A</button>
+                        <button class="button" onmouseover="displayCommand('Para Trás')">S</button>
+                        <button class="button" onmouseover="displayCommand('Direita')">D</button>
+                    </div>
+                </td>
+                <td>
+                    <div id="command-display"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
